@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main-page-info{
+    background-image: url("/assets/images/cloud-services-background.jpg");
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 54px;
+    color: white;
+    opacity: 0.8;
+}
+
+.main-heading{
+    color: white;
+    font-size: 42px;
+    margin: 0;
+    /*padding-left: 32px;
+    padding-right: 32px;*/
+}
+
+.main-page-info h2{
+    font-size: 32px;
+}
+
+.main-page-info p{
+    font-size: 24px;
+}
+
+.services-heading, .social-media-heading{
+    font-size: 52px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.main-page-services{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: black;
+}
+
+.service-item{
+    /*
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    */
+    border: solid 2px black;
+    border-radius: 12px;
+    width: 20%;
+    text-align: center;
+    background-color: #eddfff;
+}
+
+.service-item h2{
+    font-size: 32px;
+    color: rebeccapurple;
+}
+
+.service-item p{
+    font-size: 24px;
+    color: rebeccapurple;
+}
+.nabídka{
+    list-style: none;
+    margin: 8px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.service-item.recommended{
+    box-shadow: 0px 0px 50px mediumpurple;
+}
+
+.service-btn-buy{
+    width: 170px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: solid 2px black;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.service-btn-buy:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.social-media-items{
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-page-social-media{
+    color: white;
+    font-size: 42px;
+}
+
+.main-page-social-item:hover{
+    color: lightblue;
+}
+
+.social-media-item{
+    width: 30%;
+    text-align: center;
+    font-size: 32px;
+    padding: 0;
+}
+
+.social-media-item h3{
+    font-size: 24px;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+.boss-img{
+    max-width: 320px;
+    height: 320px;
+    margin: 50px;
+}
+
+p{
+    color: white;
+}
+
+h2{
+    color: white;
+    font-size: 42px;
+}
+
+h3{
+    color: white;
+    font-size: 30px;
+}
+
+.right{
+    margin-left: 100px;
+    text-align: right;
+}
+
+.right h2 h3{
+    margin-right: 25px;
+}
+
+.right2{
+    margin-right: 100px;
+}
+
+.boss-img2{
+    max-width: 320px;
+    height: 320px;
+    margin: 50px;
+}
+
+.row2{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.popis1{
+    color: white;
+    list-style: none;
+    padding: 0;
+}
+
+.popis2{
+    color: white;
+    list-style: none;
+    padding: 0;
+}
+
+.services-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.service-container-item{
+    border: solid 2px white;
+    width: 900px;
+    margin-top: 50px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.service-container-item:hover{
+    border-color: rebeccapurple;
+}
+
+.service-container-item h2{
+    font-size: 32px;
+}
+
+.service-container-item h3{
+    color: dimgray;
+}
+
+.service-container-item p{
+    font-size: 24px;
+}
+
+.registration-main-heading{
+    text-align: center;
+    color: white;
+    font-size: 52px;
+}
+
+label{
+    color: white;
+}

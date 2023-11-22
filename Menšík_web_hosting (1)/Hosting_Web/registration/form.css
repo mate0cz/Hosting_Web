@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+.sign-up-form{
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sign-up-form label,
+.sign-up-form select,
+.sign-up-form input[type="text"],
+.sign-up-form input[type="password"],
+.sign-up-form input[type="email"],
+.sign-up-form input[type="date"]
+{
+    font-size: 18px;
+    padding: 8px;
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 15px;
+    font-family: inherit;
+}
+
+.sign-up-form input[type="date"] {
+    font-family: inherit;
+}
+
+.sign-up-form input[type="submit"] {
+    width: 100%;
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.checkbox-container{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+
+.checkbox-container label {
+    margin-top: 0;
+}
+
+
+.checkbox-container input[type="checkbox"]{
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
+}
+
+.button-form{
+    margin-top: 5px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    font-size: 20px;
+}
+
+.button-form:hover{
+    background-color: darkred;
+}
+
+.agree-terms-text{
+    margin-top: 0;
+}
+
+.sign-up-form input[type="text"]:focus {
+    border: none;
+    border-bottom: 2px solid red;
+    outline: none;
+}
+
+.sign-up-form input[type="password"]:focus {
+    border: none;
+    border-bottom: 2px solid red;
+    outline: none;
+}
+
+.sign-up-form input[type="email"]:focus {
+    border: none;
+    border-bottom: 2px solid red;
+    outline: none;
+}
+

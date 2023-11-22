@@ -1,0 +1,21 @@
+* {
+    background-color: black;
+}
+
+.h1-zprava{
+    color: lightgreen;
+    text-align: center;
+}
+
+.h1-zprava{
+    margin: 250px;
+}
+
+.smile{
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+
+}
